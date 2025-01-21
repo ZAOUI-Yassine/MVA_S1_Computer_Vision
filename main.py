@@ -15,7 +15,7 @@ def opts() -> argparse.ArgumentParser:
     parser.add_argument("--model_name", type=str, default="basic_cnn", help="Model name")
     parser.add_argument("--batch-size", type=int, default=128, metavar="B")  
     parser.add_argument("--epochs", type=int, default=50, metavar="N")
-    parser.add_argument("--lr", type=float, default=0.0001, metavar="LR")  # Lower learning rate
+    parser.add_argument("--lr", type=float, default=0.0001, metavar="LR") 
     parser.add_argument("--num_workers", type=int, default=4, metavar="NW")
     parser.add_argument("--experiment", type=str, default="experiment", metavar="E")
     parser.add_argument("--log-interval", type=int, default=10, metavar="N")
